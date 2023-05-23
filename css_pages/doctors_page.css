@@ -244,4 +244,20 @@ body{
         height: fit-content;
     }
 }
+@media only screen and (max-width: 493px)
+{
+    .doc-pic{
+      display: none;
+        
+    }
+   .margin-class{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+}
+@media only screen and (min-width: 993px){
+    #nav-tog{
+        width: fit-content;
+    }
+}
 /* responsive */

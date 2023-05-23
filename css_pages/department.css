@@ -12,7 +12,8 @@
    
 }
 body{
-    font-family: PT Sans;
+    font-family: PT PT Serif;
+
 }
 /* heading  */
 .logo-img{
@@ -67,11 +68,7 @@ body{
     color: var(--yellowColor);
 }
 /* navbar  */
-/* img */
-.news-img{
-    height: 300px;
-}
-/* img */
+
 /* Breadcrumb */
 .bread{
    
@@ -93,44 +90,80 @@ body{
     color: var(--admainColor);
 }
 /* Breadcrumb */
-/* p */
-.text-color{
-    color: var(--text-color);
+
+
+
+/* card dep */
+.dep-m{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
 }
-/* p */
-/* news card */
-.news-card
-{
-    width: 280px;
-    height: 280px;
+.card-dep{
+    padding: 10px;
+    width: 355px !important;
+    height: fit-content;
+    margin: auto;
     border-radius: 20px !important;
-
+    margin: auto;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    
 }
-.card-title{
+.pro-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 73px;
+    margin-right: 5px;
+}
+.dep-details{
+    line-height: 1.5;
+    align-items: center;
+    margin-top: 10px;
+}
+.dep-name{
+    color: var(--mainColor);
     font-family: PT Serif;
-
+    font-weight: bold;
+    line-height: 0.2;
 }
-.card-btn{
-    color: var(--text-color ) !important;
-    width: 125px !important;
-    border :solid var(--mainColor)  1px !important;
+.dep-details{
     font-family: PT Serif;
+    font-size: 12px;
+    color: #606060;
+    font-weight: 700;
+    margin-bottom: 1px;
 }
-.card-btn :hover{
+.dep-inf{
+    font-family: PT Serif;
+    font-size: 10px;
+    color: #aeaeae;
+    font-weight: 700;
+    
+}
+.line-card{
+    color: #c6c6c6;
+    margin: 0px;
+}
+.btn-appointment{
+    width: fit-content !important;
+    color: #606060 !important;
+    background-color: none;
+    font-family: PT Serif;
+    border: solid 1px #e1e1e1 !important;
+    font-size: 10px;
+}
+.btn-profile{
+    width: fit-content !important;
     color: #ffffff !important;
     background-color: var(--mainColor) !important;
+    font-family: PT Serif;
+    font-size: 10px;
 }
-.date-card{
-    font-size: 12px;
-    color: #D9D9D9;
-    font-weight: 400;
-    margin: 15px;
-    padding-left: 15px;
-}
-   
+/* card doctor */
 
-/* news card */
 /* button group */
+
 .button-group-active{
     border-radius: 5px !important;
     background-color: var(--mainColor) !important;
@@ -142,12 +175,15 @@ body{
     font-family: PT Serif;
     color: var(--mainColor) !important;
     border-color: #eeeeee !important;
+    
 }
 /* button group */
+
 /* make Appointment */
 .Appointment-back{
     background-color: #D9D9D9;
     height: 270px;
+    margin-top: 6rem !important;
 }
 .doc-pic{
     width: 410px;
@@ -185,11 +221,13 @@ body{
 /* responsive */
 @media only screen and (min-width: 992px)
 {
+    .btn-bar{
+        margin-bottom: 250px !important;
+    }
     .doc-pic{
    position: absolute;
         bottom: 1px;
 
-        
     }
     .cap{
        position: absolute;
@@ -202,6 +240,17 @@ body{
     .Appointment-back{
         height: fit-content;
     }
+}
+@media only screen and (max-width: 493px)
+{
+    .doc-pic{
+      display: none;
+        
+    }
+   .margin-class{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
 }
 @media only screen and (min-width: 993px){
     #nav-tog{

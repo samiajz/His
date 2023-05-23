@@ -23,59 +23,65 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- llinks for bootstrap -->
+
+  <!-- llinks for bootstrap -->
     <script src="../bootstrap-5.0.2-dist/js/popper.min.js"></script>
     <script src="../bootstrap-5.0.2-dist/js/jquery-3.6.4.min.js"></script>
     <script src="../bootstrap-5.0.2-dist/js/bootstrap.js"></script>
     <!-- heading  -->
     <div class="container mt-2">
-      <div class="row align-items-center d-sm-flex justify-content-center mb-sm-2">
-          <div  class="col-lg-8 col-md-3 d-sm-flex  mb-sm-2 ">
-              <div>
-                  <img class="logo-img" src="../imgs/smallLogo.png" alt="" >
-              <p class="l-title ms-4 mb-0"><b>HIS</b> © We Live once</p>
-              </div>
-          </div>
-          <div  class="btn log col-lg-1 col-md-3 col-sm-4 ">Login</div>
-          <div  class="btn log col-lg-1 col-md-3 col-sm-4 ">Signup</div>
-          <div  class="col-lg-1 col-md-3 col-sm-4 dropdown " >
-              <div  class="lan dropdown-toggle " id="language" data-toggle="dropdown">English</a></div>
-              <div class="dropdown-menu" aria-labelledby="language">
-                  <a href="#" class="lan dropdown-item">Arabic</a>
+        <div class="row align-items-center d-sm-flex justify-content-center mb-sm-2">
+            <div  class="col-lg-8 col-md-4 col-sm-flex  mb-sm-2 ">
+                <div>
+                    <img class="logo-img" src="../imgs/smallLogo.png" alt="" >
+                    <p class="l-title ms-4 mb-0"><b>HIS</b> © We Live once</p>
+                </div>
+            </div>
+            <div  class="btn log col-lg-1 col-md-3 col-sm-4 ">Login</div>
+            <div  class="btn log col-lg-1 col-md-3 col-sm-4 ">Signup</div>
+        </div>    
+    </div>
   
       </div>
      </div>
     <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg  mt-2   ">
-        <a href="#navshow" data-toggle="collapse" class="navbar-toggler"><span class="navbar-toggler-icon"></span> </a>
-        <div id="navshow" class="collapse navbar-collapse" >
-          <ul class="navbar-nav m-auto">
-             <li class="nav-item p-2 px-lg-3 active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-             </li>
-             <li class="nav-item p-2 px-lg-3 ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container " id="nav-tog">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item m-auto">
+              <a class="nav-link active" aria-current="page" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item m-auto">
               <a class="nav-link" href="#">News</a>
-             </li>
-             <li class="nav-item p-2 px-lg-3 ">
-              <a class="nav-link" href="#">Appointment</a>
-             </li>
-             <li class="nav-item p-2 px-lg-3 ">
-                <a class="nav-link" href="#">Events</a>
-              </li>
-              <li class="nav-item p-2 px-lg-3 ">
-                <a class="nav-link" href="#">Departments</a>
-              </li>
-              <li class="nav-item p-2 px-lg-3 ">
-                <a class="nav-link" href="#">Doctors</a>
-              </li>
-              <li class="nav-item p-2 px-lg-3 ">
-                <a class="nav-link" href="#">About</a>
-                <li class="nav-item p-2 px-lg-3 ">
-                    <a class="nav-link" href="#">Contact us </a>
-                  </li>
-              </li>
+            </li>
+            <li class="nav-item m-auto">
+              <a class="nav-link m-auto">Appointment</a>
+            </li>
+            <li class="nav-item m-auto">
+              <a class="nav-link m-auto">Events</a>
+            </li>
+            <li class="nav-item m-auto">
+              <a class="nav-link m-auto">Departments</a>
+            </li>
+            <li class="nav-item m-auto">
+              <a class="nav-link">Doctors</a>
+            </li>
+            <li class="nav-item m-auto">
+              <a class="nav-link">About</a>
+            </li>
+            <li class="nav-item m-auto">
+              <a class="nav-link">Contact us </a>
+            </li>
+            
           </ul>
+          
         </div>
+      </div>
     </nav>
     <!-- slide  -->
     <div class="bgslide  ">
@@ -110,14 +116,14 @@
     </div>
     <!-- services  -->
     <h1 class="ser-title text-center mb-3">services</h1>
-    <div class=" container ">
-      <div class="row d-flex justify-content-center ">
+    <div class=" container ser-con">
+      <div class="row  justify-content-center ">
               <div class="f-card col-lg-6 m-auto position-relative ">
                 <img class="doc-img" src="../imgs/doctors.png" alt="">
                <div class="img-sec position-absolute">
                 <h2 style="color: var(--2ndColor); font-family: pt sans;">our services</h2>
                 <p style="font: size 14px;color: #333 ;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quod!</p>
-                <button class="btn btn-danger">313</button>
+                <button class="btn btn-danger rounded-pill call"><i class="fa-solid fa-phone-rotary" style="color: #ffffff;"></i>313</button>
                </div>
               </div>
 

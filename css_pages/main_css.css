@@ -94,6 +94,12 @@ img{
 }
 /* slide  */
 /* serveses  */
+.ser-con{
+    justify-content: space-between;
+}
+.call{
+    width: fit-content !important;
+}
 .ser-cards{
     margin-top: 31px;
 }
@@ -139,11 +145,7 @@ img{
     right: 38px;
     
     }
-.tac{
-    width: 178px;
-    height: 155px;
-
-} 
+ 
 .m-item{
     margin-left: 1px;
 }
@@ -311,6 +313,9 @@ img{
         bottom: 25px;
         
     }
+    .footer-img{ 
+        margin-left: 0px;
+    }
 }
 @media only screen and (max-width: 519px){
     .FAQ-doc{
@@ -356,4 +361,12 @@ img{
     }
 
 }
+@media only screen and (min-width: 993px){
+#nav-tog{
+    width: fit-content;
+}
 
+}
+.navbar-toggler-icon {
+    color:white !important;
+}
