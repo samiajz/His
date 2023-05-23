@@ -1,0 +1,65 @@
+:root{
+    /* color_palet */
+    --mainColor : #0557AD;
+    --2ndColor : #ED221C;
+    --bgfooterColor : #282828;
+    --fontColor : #333333;
+    --yellowColor : #DEAA4E;
+    --admainColor : #263A71;
+    --adtxtColor : #7B8DB4;
+    --adminbgColor : #F2F7FF;
+    --text-color : #606060;
+   
+}
+body{
+    font-family: PT Sans;
+}
+
+
+/* logo */
+.logo{
+    width: 70px !important;
+    
+}
+/* logo */
+/* title */
+.title-app{
+    color: var(--admainColor);
+    font-family: Roboto;
+}
+
+/* title */
+/* form */
+.form-btn{
+    color: #ffffff;
+    background-color: var(--mainColor);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    font-family: Poppins;
+    border: none;
+    opacity: 10px
+    ;
+}
+/* form */
+/* footer */
+.foot{
+    text-align: center;
+    font-size: 18px;
+    background-color: var(--bgfooterColor);
+    color: #ffffff;
+    padding: 15px;
+    align-content: center;
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+.foot-p{
+    margin-bottom: 0px;
+}
+/* footer */
+
+
+
+
