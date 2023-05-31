@@ -95,46 +95,125 @@ body{
     color: var(--text-color);
 }
 /* p */
+/* profile */
+.margin-tem{
+    margin-bottom: 500px;
+}
+.imgs{
+    position: relative;
+}
+.cover_con{
+    width: 1294px;
+    justify-self: center;
+}
+/* .cover-pic{
+    max-width: 100%;
+    max-height: 100%;
+} */
+.profile_pic{
+    position: absolute;
+    width: fit-content;
+    height: 135px;
+    left: 250px;
+    top: 400px;
 
+}
+.cov-img{
+    width: 100%;
+    border: 15px solid #ffffff;
+    border-radius: 50rem;
 
-/* card dep */
-.dep-m{
-    margin-top: 50px;
-    margin-bottom: 50px;
+}
+.doc-name{
+    color: var(--text-color) !important;
+}
+.doc-s{
+   font-family: PT Serif;
+   color: var(--text-color) ;
+
+}
+.doctor-details{
+    font-family: PT Serif;
+    color: var(--text-color) ;
+    line-height: 0.5 !important;
+    margin-top: 110px !important;
+
+}
+.book-appointment{
+    width: fit-content !important;
+    background-color: var(--mainColor) !important;
+    font-size: 20px !important;
+    font-family: PT Serif;
+    font-weight: bold !important;
+    color: #fff !important;
+    margin-top: 34px;
+    margin-left: 138px;
     
 }
-.card-dep{
-    padding: 10px;
-    border-radius: 20px !important;
-    margin: auto  !important;
-    
+.buttons{
+    background-color: var(--mainColor);
+    padding: 15px 15px 0px 15px;
+    border-radius: 5px;
+}
+.button-col{
+    width: fit-content !important;
+    border-radius: 6px 6px 0px 0px !important;
+    font-family: PT Serif;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    background-color: var(--mainColor) !important;
+    border: none !important;
+}
+.buttons .button-col:focus{
+    background-color: #fff !important;
+    color: var(--mainColor) !important;
+}
+.p-collapse{
+    font-size: 16px;
+    color: var(--text-color);
+    font-family: PT Sans;
+}
+/* profile */
+/* other doctor */
+.title{
+    font-family: PT Serif;
+    color: var(--mainColor);
+    font-weight: bold;
+}
+/* other doctor */
+
+/* card doctor */
+.card-doc{
+    padding: 20px;
+    width: 375px !important;
+    height: 280px;
+    margin: auto;
     
 }
 .pro-img{
     width: 100px;
     height: 100px;
     border-radius: 73px;
-    margin-right: 5px;
 }
-.dep-details{
-    line-height: 1.5;
+.doc-details{
+    line-height: 1;
     align-items: center;
     margin-top: 10px;
 }
-.dep-name{
+.doc-name{
     color: var(--mainColor);
     font-family: PT Serif;
     font-weight: bold;
     line-height: 0.2;
 }
-.dep-details{
+.doc-spe{
     font-family: PT Serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #606060;
     font-weight: 700;
     margin-bottom: 1px;
 }
-.dep-inf{
+.doc-exp{
     font-family: PT Serif;
     font-size: 10px;
     color: #aeaeae;
@@ -159,6 +238,9 @@ body{
     background-color: var(--mainColor) !important;
     font-family: PT Serif;
     font-size: 10px;
+}
+.margin-b{
+    margin-bottom: 186px !important;
 }
 /* card doctor */
 
@@ -219,6 +301,12 @@ body{
 }
 /* footer */
 /* responsive */
+@media only screen and (max-width: 1399px)
+{
+/* .cover_pic{
+    width: 1134px;
+} */
+}
 @media only screen and (min-width: 992px)
 {
     .btn-bar{
