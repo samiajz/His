@@ -1,0 +1,101 @@
+:root{
+    /* color_palet */
+    --mainColor : #0557AD;
+    --2ndColor : #ED221C;
+    --bgfooterColor : #282828;
+    --fontColor : #333333;
+    --yellowColor : #DEAA4E;
+    --admainColor : #263A71;
+    --adtxtColor : #7B8DB4;
+    --adminbgColor : #F2F7FF;
+    --text-color : #606060;
+   
+}
+.card-type{
+    width: 182px;
+    height: 120px !important;
+    background-color: #fff;
+    border-radius: 7px !important;
+    align-items: center;
+}
+
+.card-tit{
+    margin-top: 0px;
+    color: var(--mainColor);
+}
+.link-none{
+    text-decoration: none;
+    color: var(--mainColor);
+}
+.doc-card{
+    width: 406px;
+    height: 60px;
+    border: 4px;
+    border-color: #508AC7;
+    border:solid 2px;
+    border-radius: 7px;
+
+}
+.link-none{
+    text-decoration: none;
+    color: var(--mainColor) !important;
+}
+.dep-title{
+    color: var(--mainColor) !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* fillter */
+.filter {
+    height: 30px;
+    color: var(--fontColor);
+    font-family: PT Serif;
+    font-size: 10px;
+    border-radius: 5px;
+    width: 80px;
+    border: solid 1px;
+    border-color: var(--fontColor);
+    background-color: #fff;
+}
+.search{
+    border: solid 2px;
+    border-color:#ccc ;
+    padding-left: 10px;
+    width: 100px;
+    margin-top: 8px;
+}
+
+/* fillter */
+/* table */
+
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th {
+  color: #fff;
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+.table-scroll {
+  border-radius: .5rem;
+}
+
+.table-scroll table thead th {
+  font-size: 1.25rem;
+}
+thead {
+  top: 0;
+  position: sticky;
+}
+.th-color{
+    background-color: var(--2ndColor);
+}
+/* table */

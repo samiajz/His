@@ -1,0 +1,31 @@
+:root{
+    /* color_palet */
+    --mainColor : #0557AD;
+    --2ndColor : #ED221C;
+    --bgfooterColor : #282828;
+    --fontColor : #333333;
+    --yellowColor : #DEAA4E;
+    --admainColor : #263A71;
+    --adtxtColor : #7B8DB4;
+    --adminbgColor : #F2F7FF;
+    --text-color : #606060;
+   
+}
+.doc-card{
+    width: 406px;
+    height: 60px;
+    border: 4px;
+    border-color: #508AC7;
+    border:solid 2px;
+    border-radius: 7px;
+
+}
+.link-none{
+    text-decoration: none;
+    color: var(--mainColor) !important;
+}
+.dep-title{
+    color: var(--mainColor) !important;
+    font-size: 18px;
+    font-weight: 500;
+}
