@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- googel_fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <!-- font_awesome -->
+        <link rel="stylesheet" href="../css_pages/all.min.css">
+        <!-- css_staylsheet -->
+        <link rel="stylesheet" href="../css_pages/user-dashbord.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.css">
+     <title>Document</title>
+   
+</head>
+<body>
+    <!-- llinks for bootstrap -->
+    <script src="../bootstrap-5.0.2-dist/js/popper.min.js"></script>
+    <script src="../bootstrap-5.0.2-dist/js/jquery-3.6.4.min.js"></script>
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <!-- haeder -->
+    
+    <header>
+        <div class="container">
+            <img src="../imgs/smallLogo.png" alt="">
+        </div>
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </header>
+      
+      <!-- Sidebar -->
+      <div class="sidebar" id="mySidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="user text-center">
+            <img src="../imgs/user-img.png" alt="" class="user-img"> 
+            <div>user name</div>
+            <div>patient id :<span>55654</span></div>
+
+        </div>
+        <a href="#">Dashboard</a>
+        <a href="#">My Test</a>
+        <a href="#">appointment</a>
+      </div>
+      
+      <!-- Main content -->
+      <div id="main">
+        <h2>hello, name</h2>
+        <p>how are you felling today?</p>
+      </div>
+      
+      <!-- JavaScript for opening and closing the sidebar -->
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+      </script>
+        <div class="container py-5">
+            <div class="table-responsive">
+              <table class="table table-striped table-bordered">
+                <thead>
+                  <tr>
+                    <th>test name</th>
+                    <th>test result</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>data</td>
+                    <td>data</td>
+                  </tr>
+                  <tr>
+                    <td>data</td>
+                    <td>data</td>
+                  </tr>
+                  <tr>
+                    <td>data</td>
+                    <td>data</td>
+                  </tr>
+                  <tr>
+                    <td>data</td>
+                    <td>data</td>
+                  </tr>
+                  <tr>
+                    <td>data</td>
+                    <td>data</td>
+                  </tr>
+                 
+                </tbody>
+              </table>
+            </div>
+          </div>
+    <!-- footer -->
+    <footer class="foot">
+        <p class="foot-p">2022 ©<b style="color: var(--2ndColor);">HIMS</b> Hospital Rights Reserved. Terms of Use | Privacy Policy</p>
+        </footer>
+        <!-- footer -->
+</body>
+</html>
