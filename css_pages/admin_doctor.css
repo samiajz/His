@@ -15,9 +15,11 @@
     width: 406px;
     height: 60px;
     border: 4px;
-    border-color: #508AC7;
+    border-color: #ccc !important;
     border:solid 2px;
     border-radius: 7px;
+    box-shadow: 0 0 10px #508AC7, 0 0 0 0 #000;
+
 
 }
 .link-none{

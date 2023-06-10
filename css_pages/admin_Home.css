@@ -5,6 +5,8 @@
     background-color: #fff;
     border-radius: 7px !important;
     align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5), 0 0 0 0 black;
+
 }
 
 .card-tit{

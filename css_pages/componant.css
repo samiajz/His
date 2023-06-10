@@ -11,6 +11,9 @@
     --text-color : #606060;
    
 }
+body{
+  background-color: var(--adminbgColor) !important;
+}
 .card-type{
     width: 182px;
     height: 120px !important;
@@ -96,6 +99,78 @@ thead {
   position: sticky;
 }
 .th-color{
-    background-color: var(--2ndColor);
+    background-color: var(--admainColor);
 }
 /* table */
+/* seeall */
+.button{
+  width: fit-content !important;
+  background-color: var(--admainColor) !important;
+  color: #fff !important;
+  justify-self: end;
+  padding: 10px;
+  font-weight: 600 !important;
+  margin-right: 120px !important;
+}
+  /* seeall */
+  /* button group */
+.button-group-active{
+  border-radius: 5px !important;
+  background-color: var(--mainColor) !important;
+  font-family: PT Serif;
+}
+.button-group{
+  border-radius: 5px !important;
+  background-color: #eeeeee !important;
+  font-family: PT Serif;
+  color: var(--admainColor) !important;
+  border-color: #eeeeee !important;
+}
+/* button group */
+/* title */
+.title{
+  color: var(--admainColor);
+  margin: 30px;
+}
+/* title */
+/* footer */
+.foot{
+  text-align: center;
+  font-size: 18px;
+  background-color: var(--bgfooterColor);
+  color: #ffffff;
+  padding: 15px;
+  align-content: center;
+  margin-bottom: 0px;
+  font-weight: 200;
+}
+.foot-p{
+  margin-bottom: 0px;
+}
+/* footer */
+/* form */
+.form-btn{
+  color: #ffffff;
+  background-color: var(--mainColor);
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+  font-family: Poppins;
+  border: none;
+  opacity: 10px
+  ;
+}
+.input-stayle{
+  border: solid 0px !important;
+  border-bottom: solid 1px !important;
+  border-color: var(--admainColor) !important;
+  color: #7F8185;
+  border-radius: 0% !important;
+}
+.gen-label{
+  color: var(--mainColor);
+  margin-top: 11px;
+}
+/* form */
