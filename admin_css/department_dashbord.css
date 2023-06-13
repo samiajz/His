@@ -1,0 +1,42 @@
+:root{
+    /* color_palet */
+    --mainColor : #0557AD;
+    --2ndColor : #ED221C;
+    --bgfooterColor : #282828;
+    --fontColor : #333333;
+    --yellowColor : #DEAA4E;
+    --admainColor : #263A71;
+    --adtxtColor : #7B8DB4;
+    --adminbgColor : #F2F7FF;
+    --text-color : #606060;
+   
+}
+body{
+    background-color: #F2F7FF !important;
+}
+.eye-card{
+    padding: 20px;
+    background-color:  #fff;
+    border-radius: 20px;
+    width: 250px !important;
+
+}
+.card-num{
+    color: var(--admainColor);
+
+}
+.card-t{
+    color: var(--adtxtColor);
+    font-size: 28px;
+}
+.card{
+    border: none !important;
+}
+.chart{
+    border-radius: 20px;
+    color: var(--admainColor);
+    background-color: #fff;
+    height: 400px;
+
+}
+ 
